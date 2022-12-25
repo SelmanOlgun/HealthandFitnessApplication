@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    android:orientation="vertical"
+    tools:context=".Articles1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/colorGreen2"
+        android:gravity="center_horizontal"
+        android:text="Why Does Your Body Burn More Calories During Exercise Than It Does at Rest?"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10sp"
+                android:text="“Our body receives the energy it needs in the form of calories, mainly carbohydrates and fat,” says Todd Buckingham, PhD, an exercise physiologist at the Mary Free Bed Sports Rehabilitation Performance Lab in Grand Rapids, Michigan. Carbohydrates break down into glucose and glycogen, while fat breaks down into fatty acids. “From there, these glucose, glycogen, and fatty acid molecules get broken down even further into a molecule called adenosine triphosphate (ATP), which is what provides energy.” (Protein breaks down into amino acids, which also break down to ATP, but this process is less efficient and isn’t used to fuel exercise.)\n \nThis process, known as metabolism, happens constantly in your body, even when you are stationary, such as while sleeping in bed or working at your desk. But during exercise, Dr. Buckingham explains, the rate of ATP production increases to support your muscles (which are doing more work than usual), as well as to regulate your body temperature and sustain your increased heart rate and breathing. The more ATP you produce, the more calories you burn."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

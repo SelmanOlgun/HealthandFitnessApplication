@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SampleWorkoutPrograms"
+    android:background="@color/colorGreen">
+
+    <Button
+        android:id="@+id/btnFullbody1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#023020"
+        android:text="FULLBODY PROGRAM 1"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnFullbody2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFullbody2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="#023020"
+        android:text="Fullbody Program 2"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/btnTwoDaySplit1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnFullbody1" />
+
+    <Button
+        android:id="@+id/btnTwoDaySplit1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="#023020"
+        android:text="2 DAY SPLIT PROGRAM 1"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/btnTwoDaySplit2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnFullbody2" />
+
+    <Button
+        android:id="@+id/btnTwoDaySplit2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="#023020"
+        android:text="2 DAY SPLIT PROGRAM 2"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/btnPushPullLegs1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnTwoDaySplit1" />
+
+    <Button
+        android:id="@+id/btnPushPullLegs1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="#023020"
+        android:text="PUSH PULL LEGS PROGRAM 1"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/btnPushPullLegs2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnTwoDaySplit2" />
+
+    <Button
+        android:id="@+id/btnPushPullLegs2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="#023020"
+        android:text="PUSH PULL LEGS PROGRAM 2"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnPushPullLegs1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnPushPullLegs2"
+        app:srcCompat="@drawable/health_and_fitness_application_logo__1_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

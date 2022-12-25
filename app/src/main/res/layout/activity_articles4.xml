@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    android:orientation="vertical"
+    tools:context=".Articles1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/colorGreen2"
+        android:gravity="center_horizontal"
+        android:text="How Sleep Affects Fitness"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10sp"
+                android:text="When it comes to working out, you know that what you do in the gym is important. But what you do outside the gym — what you eat, what you drink, and especially how you sleep, is just as crucial. In fact, you must sleep in order for exercise to actually work.\n \n“We exercise for a purpose: for cardiovascular health, to increase lean muscle mass, to improve endurance, and more. All of these ‘goals’ require sleep,” says W. Christopher Winter, MD, the president of Charlottesville Neurology and Sleep Medicine and the author of The Sleep Solution: Why Your Sleep Is Broken and How to Fix It.\n \nWithout sleep, exercise does not deliver those benefits, Dr. Winter explains. “If you don’t sleep, you undermine your body.”\n \nSleep gives your body time to recover, conserve energy, and repair and build up the muscles worked during exercise. When we get enough good quality sleep, the body produces growth hormone. During childhood and adolescence, growth hormone makes us grow — as the name implies, Winter says. “And when we are older, it helps us build lean muscle and helps our body repair when we have torn ourselves up during a hard workout,” he adds. “Growth hormone is essential for athletic recovery.” \n \nThe problem is that Americans have a major issue when it comes to sleep: More than 30 percent of us are sleep-deprived, which means we’re not getting the recommended seven to eight hours a night required for adults. And that means more than 100 million people in the U.S. are sabotaging their own fitness goals, too."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

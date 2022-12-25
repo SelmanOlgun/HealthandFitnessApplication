@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    android:orientation="vertical"
+    tools:context=".Articles1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/colorGreen2"
+        android:gravity="center_horizontal"
+        android:text="Better to Fit In That Early Morning Workout or Log an Extra Hour of Sleep?"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10sp"
+                android:text="Getting enough sleep and getting regular exercise are both important, so how do you decide which one takes priority? You really shouldn’t put yourself in that position, because you absolutely need both.\n \nBut if it’s not possible to find that perfect balance all the time, “I would say sleep is always the priority, unless your sleep is almost always sound in quality and quantity,” says Winter.\n \nSo if you got seven to eight hours of sleep the night before, get up and hit the gym! But if you’ve been clocking less than six hours most nights that week, you probably want to savor that extra hour of sleep. If you skip it, chances are you’ll log a subpar workout, anyway.\n \nAnd if you were up all night the night before, definitely choose sleep, Winter says. After an all-nighter (or just a few hours of shut-eye), your body needs the rest more than ever.\n \nThe bottom line: If you’re not getting the recommended seven to eight hours of sleep per night, you need to rethink your schedule so you can make sure you do — and then you have to figure out how to fit in your regular workouts without sacrificing that sleep. You can’t have one without the other; both are absolutely essential to you being able to operate at 100 percent — not just in the gym, but in your everyday life, too."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

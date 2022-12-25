@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorGreen"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCalorie"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="@color/colorGreen2"
+        android:text="CALORIE CALCULATOR"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnNutrition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnNutrition"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="#023020"
+        android:text="SAMPLE NUTRITION PROGRAMS"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/btnWorkout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnCalorie" />
+
+    <Button
+        android:id="@+id/btnWorkout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="#023020"
+        android:text="SAMPLE WORKOUT PROGRAMS"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/btnArticles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNutrition" />
+
+    <Button
+        android:id="@+id/btnArticles"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:background="#023020"
+        android:text="INFORMATIVE ARTICLES"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnWorkout" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/health_and_fitness_application_logo__1_"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnCalorie"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

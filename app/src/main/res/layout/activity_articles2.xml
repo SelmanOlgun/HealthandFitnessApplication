@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    android:orientation="vertical"
+    tools:context=".Articles1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/colorGreen2"
+        android:gravity="center_horizontal"
+        android:text="How Much Exercise Do You Need to Lose Weight or Maintain Weight Loss?"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10sp"
+                android:text="Research consistently shows that, to lose weight, integrating exercise into your routine helps. For example, a 2017 review concluded that consistently exercising is linked with increased weight loss and weight maintenance efforts over the long term.\n \nStill, if you’re trying to control your weight through exercise, the general HHS activity guidelines might not be sufficient; you’re likely going to need to devote some extra time to exercise.\n \nAccording to the American College of Sports Medicine (ACSM), 150 to 250 minutes per week of moderate-intensity physical activity yields only modest weight-loss results, and to lose a significant amount of weight, you may need to perform moderate-intensity exercise more than 250 minutes per week (in addition to dietary intervention). So how much exercise do you need in a day? That equates to about one hour, five days per week.\n \nThe government suggests that those looking to lose a substantial amount of weight, or more than 5 percent of their body weight, should do more than 300 minutes of moderate-intensity activity a week to reach their goals.\n \nIf you increase your intensity, you can reap similar weight-control benefits in about one-half the time. For example, in one study, women who performed high-intensity interval exercise lost the same amount of weight and body fat compared with those who performed moderate-intensity cardio, but they did it while exercising for significantly less time."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

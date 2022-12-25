@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    android:orientation="vertical"
+    tools:context=".Articles1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/colorGreen2"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Tips for Increasing Your Calorie Intake "
+        android:textColor="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10sp"
+                android:text="The good news is that upping your calorie intake is relatively simple. Schroeder recommends adding a snack or two in between meals that contains a balance of protein, carbohydrates, and fat. “Carbohydrates are your body’s main fuel during exercise, so it’s important to replenish them afterwards,” Schroeder says. “Protein is essential for building and maintaining healthy muscles, and fat is important for vitamin absorption, hormone function, and overall health.” Some easy snacks that Schroeder suggests are peanut butter and banana, fruit and yogurt, or hummus and crackers. Portion size will depend on both your goals and how many calories you’re burning during a workout. If you’re aiming to eat 300 calories, you can get that from one medium banana and 2 tablespoons of peanut butter.\n\nIf snacks aren’t your thing, or if you need more calories than snacks can provide, Schroeder also recommends adding more healthy fats to your meals, since fat has more than double the calories (9 calories per gram) compared with protein and carbs (4 calories per gram), according to the Cleveland Clinic. “Things like avocado, olive oil, and peanut butter can increase calories without adding too much additional volume,” she says. Ultimately, eat healthy, whole foods to feel energized during workouts and throughout the day."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

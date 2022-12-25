@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PushPullLegsProgram2">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+      <TableLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@android:color/white">
+
+        <TableRow android:background="#023020">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Push Day"
+              android:textColor="@android:color/white"
+              android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Dumbbell Chest Press"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 sets 12 reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Dumbbell Chest Fly"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Incline Barbell Press"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Lateral Raise"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Front Raise"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Triceps Extension"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Triceps Kickback"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="#023020">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Pull Day"
+              android:textColor="@android:color/white"
+              android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Lat Pulldown"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Bentover Row"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Seated Cable Row"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Hyper Extension"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Concentration Curl"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Hammer Curl"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 10 Reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="#023020">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Leg Day"
+              android:textColor="@android:color/white"
+              android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Leg Extension"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Leg Curl"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Forward Lunge"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 12 Reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="8sp"
+              android:text="Calf Raise"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="4"
+              android:gravity="center_horizontal"
+              android:padding="10sp"
+              android:text="4 Sets 20 Reps "
+              android:textColor="@android:color/darker_gray"
+              android:textSize="13sp" />
+        </TableRow>
+      </TableLayout>
+    </LinearLayout>
+  </ScrollView>
+</RelativeLayout>

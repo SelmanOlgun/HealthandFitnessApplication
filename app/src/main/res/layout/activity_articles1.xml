@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    android:orientation="vertical"
+    tools:context=".Articles1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/colorGreen2"
+        android:gravity="center_horizontal"
+        android:text="How Much Exercise Do I Need?"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10sp"
+                android:text="“How much exercise is enough for what?” asks David Bassett Jr., PhD, a professor and the department head of exercise physiology at the University of Tennessee in Knoxville. He explains that, before you make a decision on how much you need, you should have a good idea of your exercise goals: Are you exercising for physical fitness, weight control, or as a way of keeping your stress levels low?
+
+        \n\nFor general health benefits, a routine of daily walking may be sufficient, says Susan Joy, MD, codirector of the Kaiser Permanente Sports Medicine Center in Sacramento and a team physician for the NBA’s Sacramento Kings.
+
+        \n\nIf your goal is more specific — say, to lower your blood pressure, improve your cardiovascular fitness, or lose weight — you’ll need either more frequent exercise or a higher intensity of exercise.
+
+        \n\n“The medical literature continues to support the idea that exercise is medicine,” says Jeffrey E. Oken, MD, acting chief of staff at the Edward Hines Jr. VA Hospital in Hines, Illinois. “Regular exercise can help lower risk of premature death, help control your blood pressure, reduce the risk of type 2 diabetes, combat obesity, improve your lung function, and help treat depression.”
+
+        \n\nHere, experts break down exactly how much exercise is enough, on the basis of your personal health and fitness goals."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    android:orientation="vertical"
+    tools:context=".Articles1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/colorGreen2"
+        android:gravity="center_horizontal"
+        android:text="How Much Exercise Do You Need to Improve Cardiovascular Health?"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10sp"
+                android:text="\tFortunately for anyone trying to improve their heart health, a little bit of exercise goes a long way.\n \nFor overall cardiovascular health, the American Heart Association (AHA) recommends performing at least 150 minutes of moderate-intensity aerobic activity per week or at least 75 minutes of vigorous aerobic activity per week. Other research shows that aerobic exercise is the most efficient form of exercise for improving measures of cardiometabolic health, including insulin sensitivity, glucose tolerance, and blood pressure.\n \nThe AHA recommends performing strengthening activities at least two days per week to help preserve and build lean muscle.\n \nBefore engaging in high-intensity exercise, especially if you have a history of heart issues, it’s important to talk to your doctor about what intensity of exercise is safe for you, Dr. Oken says.\n \nAnd, again, remember that it’s okay to work up to your target exercise levels. No matter what your goals are, some exercise is always going to be more beneficial than none. Small steps sometimes lead to the biggest gains."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

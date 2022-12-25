@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    android:orientation="vertical"
+    tools:context=".CalorieCalculator">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:text="What is your gender?"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:text="What is your age?"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/textAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:ems="10"
+        android:hint="numerical"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_height="wrap_content"
+        android:text="What is your height?"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/textHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingStart="10dp"
+        android:hint="cm"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:text="What is your weight?"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/textWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingStart="10dp"
+        android:hint="kg"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is your activity level?"
+        android:paddingStart="10dp"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/rdActivityLevel"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/rbSedentary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sedentary (Office job)"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Light exercises (1-2 days/week)"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbModerate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moderate exercises (3-5 days/week)"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbHeavy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heavy exercises (6-7 days/week)"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#023020"
+        android:onClick="sayisaldeger"
+        android:text="CALCULATE"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/Almanizgereken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tvSonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+</LinearLayout>

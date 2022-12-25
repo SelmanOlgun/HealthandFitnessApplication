@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    android:orientation="vertical"
+    tools:context=".Articles1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/colorGreen2"
+        android:gravity="center_horizontal"
+        android:text="Regular Exercise Can Absolutely Help You Sleep"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10sp"
+                android:text="Can exercise help you sleep? Absolutely. And if you’ve never experienced that immediate sleep-inducing exhaustion one might experience after a day of hiking or a grueling boot camp class, there’s a ton of scientific research to back up this claim, too.\n \nIn one study, individuals with a self-reported sleep time of less than 6.5 hours completed moderate-intensity workouts (think walking, riding a stationary bicycle, or running or walking on a treadmill) four times a week for six weeks. At the end of the experiment, they reported getting an extra 75 minutes of sleep per night — more than any drug has helped deliver, according to the study authors.\n \nExercise actually has a chemical effect on the brain. “Physical activity creates more adenosine in the brain, and adenosine makes us feel sleepy,” says Winter. (Fun fact: Adenosine is the chemical that caffeine blocks to make you feel more alert.) “The harder we work out, the more driven we are by this chemical to sleep.”"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
